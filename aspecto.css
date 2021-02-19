@@ -1,0 +1,91 @@
+*,*:after,*:before{
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.Tosvg{
+font-family: 'Times New Roman', Times, serif;
+
+
+margin: 0;
+
+}
+
+.energy{
+  margin-left: 50%;
+  color: yellow;
+  font-size: 40px;
+}
+
+.tipeado{
+  font-size: 25px;
+  text-align: center;
+margin-left: 40%;
+ width: 50%;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+svg text{
+   
+    
+    stroke: purple;
+    
+    
+    font-size: 60px;
+    font-weight: 700;
+    stroke-width: 2;
+
+    animation: textAnimate 10s infinite alternate;
+}
+
+.br{
+  display: none;
+}
+
+.svgphone{
+  display: none;
+}
+
+@keyframes textAnimate{
+ 0%{
+   stroke-opacity: 0 50%;
+   stroke-dasharray: 0 50%;
+ }
+ 100%{
+  stroke-dasharray: 50% 0 ;
+ }
+
+
+}
+
+@media (max-width : 414px){
+
+  .tipeado{
+    font-size: 19px;
+   margin-left: 3%;
+  }
+
+  .pc{
+    display: none;
+  }
+
+  svg text{
+  font-size: 220px;
+    stroke-width: 5;
+    stroke: rgb(157, 23, 157);
+
+
+  }
+
+  .svgphone{
+    display: block;
+  }
+
+  .br{
+    display: block;
+  }
+ 
+}

@@ -1,0 +1,41 @@
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 30%;
+    height: 40%px;
+  }
+
+
+  .marginicons{
+      margin-left: 25%;
+  }
+
+  
+
+  
+
+  @media (max-width : 414px){
+    .margin-cards{
+
+        margin-left: 10%;
+     }
+    
+     .nav-size{
+        font-size: 9px;
+        
+    }
+
+    
+    
+    .marginicons{
+        margin-left: 5%
+      }
+
+      .margincards{
+        margin-left: 10%;
+      }
+
+      
+    
+}
