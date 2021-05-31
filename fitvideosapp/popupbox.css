@@ -72,7 +72,7 @@
 	margin-left: 40%;
 }
 
-@media  (max-width: 414px) {
+@media  (max-width: 739px) {
 
 	.modal-contents{
 		height: 350px;
