@@ -11478,21 +11478,21 @@ var Navbar = function Navbar() {
     className: "nav-item"
   }, /*#__PURE__*/react.createElement(Link, {
     className: "nav-link active",
-    to: "/"
+    to: "/ScheduleApp/Schedule"
   }, "  Horarios ", /*#__PURE__*/react.createElement("i", {
     className: "bi bi-clock"
   }), "  ")), /*#__PURE__*/react.createElement("li", {
     className: "nav-item"
   }, /*#__PURE__*/react.createElement(Link, {
     className: "nav-link active",
-    to: "/teacher"
+    to: "/ScheduleApp/teacher"
   }, "Profesores ", /*#__PURE__*/react.createElement("i", {
     className: "bi bi-person-lines-fill"
   }))), /*#__PURE__*/react.createElement("li", {
     className: "nav-item"
   }, /*#__PURE__*/react.createElement(Link, {
     className: "nav-link active",
-    to: "/search"
+    to: "/ScheduleApp/search"
   }, "Buscar ", /*#__PURE__*/react.createElement("i", {
     className: "bi bi-search"
   })))))));
@@ -11511,18 +11511,18 @@ var Navbar = function Navbar() {
 var AppRouter = function AppRouter() {
   return /*#__PURE__*/react.createElement(BrowserRouter, null, /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement(navbar, null), /*#__PURE__*/react.createElement(Component_or_Screens_Clock, null), /*#__PURE__*/react.createElement(Switch, null, /*#__PURE__*/react.createElement(Route, {
     exact: true,
-    path: "/",
+    path: "/ScheduleApp/Schedule",
     component: managinghours
   }), /*#__PURE__*/react.createElement(Route, {
     exact: true,
-    path: "/teacher",
+    path: "/ScheduleApp/teacher",
     component: manageteacher
   }), /*#__PURE__*/react.createElement(Route, {
     exact: true,
-    path: "/search",
+    path: "/ScheduleApp/search",
     component: search
   }), /*#__PURE__*/react.createElement(Redirect, {
-    to: "/"
+    to: "/ScheduleApp/Schedule"
   }))));
 };
 
