@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body{
+  background: rgb(65,0,87);
+background: linear-gradient(0deg, rgba(65,0,87,1) 13%, rgba(255,255,255,1) 82%);
+}
+
 .Tosvg{
 font-family: 'Times New Roman', Times, serif;
 
